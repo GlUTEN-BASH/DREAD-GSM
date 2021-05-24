@@ -11,7 +11,9 @@ WORKS ONLY ON LINUX AND TESTED ON PARROT OS
 
 # USAGE
 
-First, plug in your sdr device
+First, plug in your sdr device. 
+
+
 Then, type in terminal:
 ```
 sudo apt install python
