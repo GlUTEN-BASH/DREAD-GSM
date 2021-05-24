@@ -50,7 +50,7 @@ def main(ss):
     clear()
     print(f"{Fore.GREEN} Your sdr is: {sdr}, right? Y/N {Fore.WHITE}")
     sr = input(f"Dre@d{Fore.GREEN}~/attack/sdr/{Fore.BLUE}: ")
-    if sr == 'Y':
+    if sr == 'Y' or sr == 'y':
         scan(sdr)
     if sr == 'N':
         clear()
@@ -92,7 +92,7 @@ def starter():
     sr = input(f"Dre@d{Fore.GREEN}~/attack/sdr/freq{Fore.BLUE}: ")
     print(f"{Fore.GREEN} Your frequency is: {sr}, right? Y/N or redoscan {Fore.WHITE}")
     sd = input(f"Dre@d{Fore.GREEN}~/attack/sdr/freq{Fore.BLUE}: ")
-    if sd == 'Y':
+    if sd == 'Y' or sd == 'y':
         clear()
         listen(sdr, sr)
     elif sd == 'redoscan':
