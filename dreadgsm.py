@@ -52,7 +52,7 @@ admin of TG:termuxqew
 
 DRE@D AUTOGSM V. 1.2
 
-Script made for automatisation
+Script made for automation
 of using IMSI-catcher and searching
 base stations.
               """)
