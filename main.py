@@ -12,7 +12,7 @@ print(f"""
 | | | | |_) |  _|   / _ \ | | | | | |  _\___ \| |\/| |
 | |_| |  _ <| |___ / ___ \| |_| | | |_| |___) | |  | |
 |____/|_| \_\_____/_/   \_\____/   \____|____/|_|  |_|
-                                                  s    
+                                                      
 {Fore.RESET}
 {Back.RESET}
 """)
@@ -49,7 +49,7 @@ def main(ss):
     
     clear()
     print(f"{Fore.GREEN} Your sdr is: {sdr}, right? Y/N {Fore.WHITE}")
-    sr = input(f"Dre@d{Fore.GREEN}~/attack/sdr/{Fore.BLUE}: ")
+    sr = input(f"Dre@d{Fore.GREEN}~/attack/sdr{Fore.BLUE}: ")
     if sr == 'Y' or sr == 'y':
         scan(sdr)
     if sr == 'N':
