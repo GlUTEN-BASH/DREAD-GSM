@@ -59,7 +59,7 @@ base stations.
         print(f"{Fore.BLUE} Back? Y/N {Fore.WHITE}")
 
         sw = input(f"Dre@d{Fore.GREEN}~/info{Fore.BLUE}:")
-        if sw == 'Y':
+        if sw == 'Y' or sw == 'y':
             clear()
             main()
         else:
@@ -83,7 +83,7 @@ def setup():
     print(f"{Fore.GREEN} Done! Now you can run main.py or run in menu{Fore.WHITE}")
     print(f"{Fore.BLUE} Exit to menu? Y/N {Fore.WHITE}")
     sw = input(f"Dre@d{Fore.GREEN}~{Fore.BLUE}/setup:")
-    if sw == 'Y':
+    if sw == 'Y' or sw == 'y':
         clear()
         main()
     else:
