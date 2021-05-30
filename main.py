@@ -46,6 +46,8 @@ def main(ss):
         sdr = 'airspyf'
     if ss == '5':
         sdr = 'soapy'
+    if ss == '6':
+        sdr = 'rtl_tcp'
     
     clear()
     print(f"{Fore.GREEN} Your sdr is: {sdr}, right? Y/N {Fore.WHITE}")
@@ -73,6 +75,8 @@ def select():
     airspyf - 4
 
     soapysdr - 5
+    
+    rtl-tcp - 6
 =============================
 
 {Fore.WHITE}
