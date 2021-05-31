@@ -69,7 +69,7 @@ base stations.
     elif ss == '1':
         setup()
     elif ss == '2':
-        os.system('python main.py')
+        os.system('python3 main.py')
 
 def setup():
     print(f"{Fore.GREEN} Installing...{Fore.WHITE}")
