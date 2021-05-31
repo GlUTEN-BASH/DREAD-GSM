@@ -16,8 +16,9 @@ First, plug in your sdr device.
 
 Then, type in terminal:
 ```
-sudo apt install python
-python dreadgsm.py
+sudo apt update
+sudo apt install python3 git
+sudo python3 dreadgsm.py
 ```
 Then you can go through menu and choose what you want.
 
