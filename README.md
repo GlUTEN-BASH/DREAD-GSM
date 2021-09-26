@@ -40,7 +40,7 @@ Made by GLUTEN and inspired by fuckwbored
 
 
 
-GLUTEN discord server - https://discord.gg/mXZAY8mKRC
+GLUTEN discord - Глютеша#1158
 
 
 
