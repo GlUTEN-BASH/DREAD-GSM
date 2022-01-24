@@ -36,19 +36,20 @@ def main(ss):
     global sdr
     if ss == '0':
         sdr = 'rtl'
-    if ss == '1':
+    elif ss == '1':
         sdr = 'bladerf'
-    if ss == '2':
+    elif ss == '2':
         sdr = 'hackrf'
-    if ss == '3':
+    elif ss == '3':
         sdr = 'airspy'
-    if ss == '4':
+    elif ss == '4':
         sdr = 'airspyf'
-    if ss == '5':
+    elif ss == '5':
         sdr = 'soapy'
-    if ss == '6':
+    elif ss == '6':
         sdr = 'rtl_tcp'
-    
+    else:
+        select()
     clear()
     print(f"{Fore.GREEN} Your sdr is: {sdr}, right? Y/N {Fore.WHITE}")
     sr = input(f"Dre@d{Fore.GREEN}~/attack/sdr{Fore.BLUE}: ")
